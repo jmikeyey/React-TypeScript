@@ -1,9 +1,9 @@
-import './App.css';
+import './css/App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <h1>Hello World </h1>
+        <span className="heading">Taskify</span>
     </div>
   );
 }
